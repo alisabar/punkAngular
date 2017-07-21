@@ -1,0 +1,39 @@
+<header>
+<a href="" id="logo"></a>
+
+        <div class="horizontal_line"></div>
+        <a href="" class="upload_now">
+            <ul>
+                <li>UPLOAD</li>
+                <li>NOW!!!</li>
+            </ul>
+        </a>
+        <div>
+        <div class="circle"></div>
+        <a href="" class="audience">
+            <p>AUDIENCE</p>
+        </a>
+        </div>
+        <div>
+            <div class="line_over"></div>
+             <a href="" class="bands">
+                <p>BANDS</p>
+            </a>
+        </div>
+       
+        <div class="search">
+            <a href=""></a>
+            <input type="text" class="input" />
+       </div>
+       <button class="rout_button"
+       (click)="onPressed()">show all</button>
+
+       <p *ngIf="pressed; else notPressed"></p>
+    
+       <ul>
+            <li routerLinkActive="active"> <a routerLink="/aside-top-list" href="#"></a></li>
+       
+       </ul>
+    <ng-template #notPressed></ng-template>
+
+</header>

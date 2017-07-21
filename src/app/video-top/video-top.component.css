@@ -1,0 +1,132 @@
+aside{
+    position:absolute;
+    display:inline-block;
+    height:83%;
+    width:42%;
+}
+
+ .secondary_video{
+    position: absolute;
+    top: 74px;
+    right: 3px;
+    height: 195px;
+    width: 345px;
+    border: none;
+ }
+ .next_on{
+    position: absolute;
+    top: 43px;
+    right: 1px;
+ }
+ .secondary_video_details{
+    
+     position: absolute;
+    top: 74px;
+    right: 364px;
+    height: 100px;
+    width: initial;
+ }
+ .upper_video{
+height: 400px;
+width: 400px;
+ }
+ .secondary_video_details ul{
+    list-style-type: none;
+    direction: rtl;
+ }
+ .secondary_video_details li:nth-child(2){
+    color:black;
+ }
+ .secondary_video_name{
+    position:absolute;
+    top:269px;
+    right: 187px;
+    width: initial;
+    height: 36px;
+    background-color: black;
+    font-family: LetterGothicStd;
+    font-size: 27px;
+    color: white;
+    padding-top: 4px;
+    padding-left: 12px;
+    padding-right: 4px;
+ }
+ .bottom_asside{
+
+    display: inline-block;
+    position: relative;
+    height: 100%;
+    width: 100%;
+ }
+ .aside_bottom_video{
+  display: block;
+    height: 195px;
+    width: 345px;
+    border: none;
+   position: relative;
+    margin-left: 140px;
+    display: inline;
+ }
+
+ .side-video-with-description{
+    position:relative;
+ }
+ .aside_bottom_video_details{
+    
+    top: 74px;
+    right: 364px;
+    height: 100px;
+    width: initial;
+    float: right;
+    display: inline;
+ }
+.aside_bottom_video_details ul{
+    list-style-type: none;
+    direction: ltr;
+ }
+.aside_bottom_video_details li:nth-child(2){
+    color:black;
+ }
+/*
+ .aside_bottom_video_name{
+    position:absolute;
+    top:269px;
+    right: 187px;
+    width: initial;
+    height: 36px;
+    background-color: black;
+    font-family: LetterGothicStd;
+    font-size: 27px;
+    color: white;
+    padding-top: 4px;
+    padding-left: 12px;
+    padding-right: 4px;
+ }
+ */
+
+  .aside_bottom_video_name{
+    position:absolute;
+    width: initial;
+    height: 36px;
+    background-color: black;
+    font-family: LetterGothicStd;
+    font-size: 27px;
+    color: white;
+    padding-top: 4px;
+    padding-left: 12px;
+    padding-right: 4px;
+
+    z-index: 9999;
+    right: 133px;
+    top: 193px;
+ }
+
+.bottom_asside > ul > li{
+    margin-bottom: 43px;
+ }
+.thin_text{
+    font-size: 27px;
+    font-family: LetterGothicStd;
+   color:#682954;
+
+ }

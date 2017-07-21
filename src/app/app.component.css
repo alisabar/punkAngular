@@ -1,0 +1,33 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: LetterGothicStd;
+    src: url('../fonts/LetterGothicStd.otf');
+}
+
+@font-face {
+    font-family: LetterGothicStd-Bold;
+    src: url('../fonts/LetterGothicStd-Bold.otf');
+}
+
+@font-face {
+    font-family: LetterGothicStd-BoldSlanted;
+    src: url('../fonts/LetterGothicStd-BoldSlanted.otf');
+}
+@font-face {
+    font-family: LetterGothicStd-Slanted;
+    src: url('../fonts/LetterGothicStd-Slanted.otf');
+}
+header,nav,main,footer,aside,article,section{
+    display: block; 
+}
+body{
+    position: relative;
+}
+header{
+    position: relative;
+    width: 1670px;
+}

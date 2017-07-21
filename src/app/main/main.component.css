@@ -1,0 +1,173 @@
+main{
+    position: absolute;
+    right:1px;
+    display: inline-block;
+    height: 83%;
+    width: 57%;
+}
+.name_main_video{
+    position: absolute;
+    top: 38px;
+    left: 7px;
+    width: initial;
+    height: 36px;
+    background-color: black;
+    font-family: LetterGothicStd;
+    font-size: 27px;
+    color: white;
+    padding-top: 4px;
+    padding-left: 12px;
+    padding-right: 4px;
+    display: inline-block;
+ }
+ .line_under_main_video{
+    position: absolute;
+    top: 604px;
+    right: 99px;
+    width: 850px;
+    height: 8px;
+    background: url('../../images/long-line.png');
+ }
+ .main_video{
+    position: absolute;
+    top: 74px;
+    right: 100px;
+    height: 477px;
+    width: 845px;
+    border: none;
+ }
+ .video_buttons_background{
+     position: absolute;
+    top: 482px;
+    right: 100px;
+    height:70px;
+    width: 845px;
+   background-image: url('../../images/darken-bar.png'); 
+ }
+ .all_buttons_player{
+    display: inline-block;
+    margin-top:44px;
+    margin-left: 24px;
+ }
+ 
+ .pause{
+    background-image:url('../../images/pause.png');
+    height:18px;
+    width: 14px;
+ }
+ .pause:hover{
+     background-image:url('../../images/pause-hover.png');
+ }
+ .play{
+     background-image:url('../../images/next.png');
+     height:18px;
+     width: 12px;
+ }
+  .play:hover{
+     background-image:url('../../images/next-hover.png');
+ }
+ .next{
+    background-image:url('../../images/next.png');
+    height:18px;
+    width: 18px; 
+ }
+ .next:hover{
+     background-image:url('../../images/next-hover.png');
+ }
+ .volume_button{
+   background-image:url('../../images/volume.png');
+   height:18px;
+    width:27px;
+ }
+ .volume_button:hover{
+    background-image:url('../../images/volume-hover.png');
+ }
+ .thin_text{
+    font-size: 27px;
+    font-family: LetterGothicStd;
+   color:#682954;
+
+ }
+ .number_of_views{
+    position: absolute;
+    top: 45px;
+    right:100px;
+    display: inline-block;
+ }
+ .thin_text span{
+    font-family: LetterGothicStd-Bold;
+ }
+ .live{
+    background-image: url('../../images/live.png');
+    position: absolute;
+    top:90px;
+    right: 159px;
+    height: 38px;
+    width: 150px;
+ }
+ .date{
+    position: absolute;
+    top:560px;
+    left: 7px;
+    
+ }
+ .share_on{
+    display: inline-block;
+    position: absolute;
+    top:635px;
+    right: 532px;
+    height: 35px;
+    width: 148px;
+    background-color:black;
+    font-family: LetterGothicStd;
+    font-size: 27px;
+    color: white;
+    padding-top: 4px;
+    padding-left: 12px;
+    padding-right: 4px;
+ }
+.logos_collection{
+     position: absolute;
+    top:639px;
+    right: 68px;
+    width: 418px;
+    height: 33px;
+}
+ .all_logos{
+    position: relative;
+    display: inline-block;
+    height: 32px;
+    width: 32px;
+    margin-right: 3px;
+    background-size: contain;
+ }
+ .facebook{
+background-image: url('../../images/logos/facebooklogo.png');
+ }
+  .skype{
+background-image: url('../../images/logos/skyplogo.png');
+ }
+  .google{
+background-image: url('../../images/logos/googlelogo.png');
+ }
+  .tweeter{
+background-image: url('../../images/logos/tweeterlogo.png');
+ }
+ .reddit{
+    background-image: url('../../images/logos/redditlogo.png');
+ }
+  .blooger{
+    background-image: url('../../images/logos/bloogerlogo.png');
+ }
+  .tumblr{
+    background-image: url('../../images/logos/tumblrlogo.png');
+ }
+  .insta{
+    background-image: url('../../images/logos/instalogo.png');
+ }
+   .pinterest{
+    background-image: url('../../images/logos/pinterestlogo.png');
+ }
+    .linkedin{
+    background-image: url('../../images/logos/linkedinlogo.png');
+ }

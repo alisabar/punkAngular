@@ -1,0 +1,168 @@
+a#logo{
+    position: relative;
+    display: inline-block;
+    width: 13%;
+    height: 219px;
+    margin-left: 100px;
+    margin-top: 13px;
+    background: url('../../images/Logo.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.rout_button {
+    height: 20px;
+    width: 40px;
+    position: absolute;
+      top: 65px;
+    right: 15px;
+    background-color: #4CAF50; /* Green */
+    border: none;
+    
+    display: inline-block;
+    
+}
+.top_asside{
+    width: initial;
+    height: 100%;
+}
+.horizontal_line{
+ 
+   position: absolute;
+    display: inline-block;
+    width: 72%;
+    height: 9px;
+    margin-left: 42px;
+    margin-top: 94px;
+    background: url('../../images/top-line.png');
+     z-index: 3;
+
+}
+.upload_now{
+    position: absolute;
+    top:57px;
+    left:475px;
+    width: 160px;
+    height:88px;
+    background-color:black;
+ 
+}
+a.upload_now {
+    text-decoration: none;
+}
+.upload_now ul{
+        list-style-type: none;
+}
+.upload_now li:nth-child(1){
+    padding-top: 4px;
+    padding-left: 6px;
+    font-family: LetterGothicStd;
+    color: #ffffff;
+    font-size: 41px;
+    margin-bottom: -10px;
+    position: absolute;
+    top: -4px;
+    left: 2px;
+}
+.upload_now li:nth-child(2){
+     padding-left: 7px;
+    font-family: LetterGothicStd;
+    color: #ff0000;
+    font-size: 41px;
+    position: absolute;
+    margin-top: 8px;
+    /* margin-left: -39px; */
+    top: 2pc;
+    left: 1px;
+}
+
+.audience{
+    position: absolute;
+    top:50px;
+    right:110px;
+    width: 224px;
+    height:38px;
+    background-color:black;
+    z-index: 1;
+}
+a.audience{
+    text-decoration: none;
+}
+.audience p{
+  
+    padding-left:36px;
+    font-family: LetterGothicStd-Bold;
+    color:#ffffff;
+    font-size: 38px;
+
+}
+.circle{
+    position: absolute;
+    top:29px;
+    right: 64px;
+    width: 293px;
+    height:74px;
+    background-image: url('../../images/circle-bold.png');
+    z-index: 2;
+}
+.bands{
+    position: absolute;
+    top:109px;
+    right:110px;
+    width: 136px;
+    height:41px;
+    background-color:black;
+    z-index: 1;
+}
+a.bands{
+    text-decoration: none;
+}
+.bands p{
+  
+    padding-left:20px;
+    font-family: LetterGothicStd-Bold;
+    color:#ffffff;
+    font-size: 38px;
+    margin-top: 2px;
+}
+.line_over{
+    position: absolute;
+    top:121px;
+    right: 88px;
+    width: 180px;
+    height:16px;
+    background-image: url('../../images/line-bold.png');
+    z-index: 2;
+}
+.search{
+    position: absolute;
+    top:170px;
+    left:353px;
+    width: 968px;
+    height:58px; 
+    background:black;
+   
+}
+.search a{
+    position: absolute;
+    width: 40px;
+    height:45px; 
+    top:8px;
+    left:11px;
+    background: url('../../images/search.png') no-repeat;
+}
+.input{
+    width: 892px;
+  
+}
+input[type=text] {
+
+    height: 50px;
+    position: relative;
+    left: 70px;
+    outline: none;
+    border: none;
+    background-color: black;
+    color: white;
+    font-size: 40px;
+    top: 2px;
+ }
