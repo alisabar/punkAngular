@@ -1,6 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 import { Video} from '../video/video.model';
 import { DomSanitizer } from '@angular/platform-browser';
+
+import  {VideoListService} from '../services/video-list.service';
+
 @Component({
   selector: 'app-main',
   templateUrl: './main.component.html',
@@ -8,9 +11,9 @@ import { DomSanitizer } from '@angular/platform-browser';
 })
 export class MainComponent implements OnInit {
 
+main_video:Video;
 
-main_video:Video = new Video(0,"Pitbull",'https://www.youtube.com/embed/UWLr2va3hu0?controls=0&rel=0&enablejsapi=1&modestbranding=1&showinfo=0',"test2","test3","test4","tes5","test6","10.08.2017",500000);
-  constructor(private sanitizer: DomSanitizer) {
+  constructor(private sanitizer: DomSanitizer ,private videolist:VideoListService) {
    }
 
 videoURL(){
@@ -18,6 +21,10 @@ return this.sanitizer.bypassSecurityTrustResourceUrl(this.main_video.embedded.to
 }
 
   ngOnInit() {
+this.videolist.selected_video.subscribe(
+   (video:Video) => {
+               this.main_video=video;
+          }
+    );
   }
-
 }

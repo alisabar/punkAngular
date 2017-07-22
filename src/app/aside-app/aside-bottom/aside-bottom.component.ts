@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 
+
 @Component({
   selector: 'app-aside-bottom',
   templateUrl: './aside-bottom.component.html',
@@ -11,5 +12,4 @@ export class AsideBottomComponent implements OnInit {
 
   ngOnInit() {
   }
-
 }

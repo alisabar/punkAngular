@@ -1,0 +1,6 @@
+<app-video-item
+*ngFor="let videoEl of videos"
+[video]="videoEl"
+(itemSelected)="onVideoSelected(videoEl)">
+    
+</app-video-item>

@@ -21,6 +21,8 @@ import { VideoPlayComponent } from './video-play/video-play.component';
 
 import { MainComponent } from './main/main.component'
 import {VideoListService }from './services/video-list.service';
+import { VideoListComponent } from './video-list/video-list.component';
+import { VideoItemComponent } from './video-item/video-item.component';
 
 @NgModule({
   declarations: [
@@ -36,6 +38,8 @@ AsideAppComponent,
     VideoPlayComponent,
     AsideBottomComponent,
     MainComponent,
+    VideoListComponent,
+    VideoItemComponent,
 
   ],
   imports: [
