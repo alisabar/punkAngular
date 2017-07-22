@@ -20,6 +20,7 @@ import {AppRoutingModule} from './app-routing.module';
 import { VideoPlayComponent } from './video-play/video-play.component';
 
 import { MainComponent } from './main/main.component'
+import {VideoListService }from './services/video-list.service';
 
 @NgModule({
   declarations: [
@@ -44,7 +45,7 @@ AsideAppComponent,
     RouterModule,
     AppRoutingModule
   ],
-  providers: [],
+  providers: [VideoListService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
